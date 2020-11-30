@@ -22,7 +22,7 @@ class Contact extends Component {
 
 
         <h1>
-                <Fade bottom cascade> Contact.</Fade>
+                <Fade bottom cascade> Inquries</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
