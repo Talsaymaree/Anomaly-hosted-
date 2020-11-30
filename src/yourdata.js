@@ -1,4 +1,4 @@
-import t from './images/anom.gif'
+import t from './images/anom.png'
 import anom from './images/anomalyprow.png'
 import about from './images/anomalypro.png'
 import aboutTwo from './images/head/ifk1.jpg'
