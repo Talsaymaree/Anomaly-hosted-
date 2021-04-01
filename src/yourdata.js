@@ -14,7 +14,7 @@ export default
         //Contact Email
         contactEmail:'info@anomalypro.com',
         // Add Your About Text Here
-        abouttext: "Anomaly Productions specializes in event coordination and talent procurement for all tastes and occasions. Anomaly Productions is focused on tailoring the most unique performances from artists around the world, regardless of the occasion. Logistical Coordination, Talent procurement, Event Management and everything in between. Let us give your audiences, loved ones, guests, or customers an experience they will be grateful for.",
+        abouttext: "To serve as a platform, where artists and audiences can push one another to diverge from the standard. Our focus, is our audience.",
         aboutImage:about,
         aboutImageTwo:aboutTwo,
        //Change This To Hide The Image of About Section (True Or False)

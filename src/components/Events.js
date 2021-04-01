@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
 import { Slide } from "react-slideshow-image";
 
-class Work extends Component {
+class Events extends Component {
     state = {  }
 
 
@@ -14,10 +14,10 @@ class Work extends Component {
         return (<div>
         <h1 className='heading'>
 
-        <Fade bottom cascade>Events.</Fade></h1>
+        Events.</h1>
 
             </div> );
     }
 }
  
-export default Work;
+export default Events;

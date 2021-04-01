@@ -6,7 +6,7 @@
   width: 100vw;
 }
 #dvdv{
-  margin-top: -7vh;
+  margin-top: 21vh;
   width: 24vw;
 }
 body{
@@ -65,8 +65,8 @@ height: 100vh;
 }
 .each-fade img  {
  opacity: 0.7;
- width: 160vw;
- height: 280vh;
+ width: 100vw;
+ height: 180vh;
 }
 #backArrow{
   width: 2vw; 
@@ -92,7 +92,7 @@ height: 100vh;
 }
 #selector{
   margin-top: -3vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   width:50vw;
   height: 60vh;
@@ -106,8 +106,9 @@ height: 100vh;
 }
 #ssx{
   width: 30vw;
-  height: 80vh;
-  padding-left: 5vw;
+  height: 75vh;
+  padding-left: 28vw;
+  margin-top: -3vh;
 }
 .poster img{
   padding-top: 10vh;
@@ -140,7 +141,7 @@ height: 100vh;
   padding-top: 0vh;
 }
 .poster{
-  display: flex;
+
   flex-direction: row;
   width: 40vw;
   padding-bottom: 7vh;
@@ -241,7 +242,7 @@ color: red;
 nav li .link{
   text-decoration: none;
   color: white;
-padding-left: -2vw;
+padding-left: 1vw;
 
 padding-right: 1vw;
   opacity: 1;
@@ -263,7 +264,7 @@ li .link:hover{
 
 
 .About{  
-  margin-top: 143vh;
+  margin-top: 115vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -385,7 +386,7 @@ margin-top: 3vh;
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
   .artist-info {  
-    height:19.5vh;
+    height:40vh;
     z-index: -100;
     margin-top: 0vh;
   
@@ -396,36 +397,34 @@ margin-top: 3vh;
     width: 19vw;
     height: 9vh;
     z-index: 100;
-    margin-top: -0.2vh;
+    margin-top: -.2vh;
 
     }
-.artist-info p{
-padding-top: 0vh;
+.artist-info {
+padding-top:13vh;
 display: inline-block;
 }
 #dvdv{
-  margin-top: 24vh;
-  width: 50vw;
-  height: 25vh;
+  margin-top: 29.5vh;
+  width: 70vw;
+  height: 35vh;
 }
 
 
   .poster{
-    display: flex;
     flex-direction: row;
     width:10vw;
     padding-bottom: 7vh;
     text-align: justify;
     text-justify: inter-word;
-  
+    margin-top: 0vh;
   }
 
   #poc{
     margin-left: 0vw;
-    margin-top: 35vh;
+    margin-top: 9vh;
     width: 70vw;
     height: 35vh;
-    padding-bottom: 10vh;
     z-index: -10;
   }
   #sauce #selector{
@@ -467,10 +466,10 @@ display: inline-block;
     margin-left: -0.5vw;
   }
   #ssx{
-    width: 18vw;
+    margin-left:25vw;
+    margin-top: -43vh;
+    width: 25vw;
     height: 18vh;
-    padding-left: 52vw;
-  margin-top: 26vh;
   }
 
   .videoContainer iframe{
@@ -528,21 +527,21 @@ width: 10vw;
   .each-fade {
     position: absolute;
     opacity: .75;
-    margin-top: -5vh;
-   height: 106vh;
+    margin-top: -3vh;
+  
+   height: 126vh;
    width: 100vw;
    overflow: hidden;
   }
 
-  .each-fade img {
-   width: 20vw;
-  }
+  .each-fade img  {
+    opacity: 0.7;
+   }
   .event-name{
     font-size: 2.2em;
     margin-bottom: -.3vh;
   }
   .each-slide img{
-    display: block;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -551,9 +550,11 @@ width: 10vw;
     margin-bottom: 5vh;
   
   }
+  #ssxinfo{
+ 
+  }
   .each-slide {
-    display: block;
-    position: absolute;
+
     display: flex;
     flex-direction: column;
     width: 70vw;
@@ -608,7 +609,7 @@ width: 10vw;
 }
 
 #scOne{
-  padding-top: 73vh;
+  padding-top: 65vh;
   width: 70vw;
   height: 10vh;
 }

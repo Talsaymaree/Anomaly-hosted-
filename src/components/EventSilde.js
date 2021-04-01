@@ -68,9 +68,18 @@ const TitleSlide = () => {
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/HhbSAFf8Kdc" frameborder="0" ></iframe>
                 
                   <p>
-                    An intimate evening of sights, sounds, and fresh dumplings at the Institut Français du Koweit. Featuring musical performances and visual prompts by local artists and producers, Kadisa & Edyth.
-                     Only made possible with the support of our family from the one and only Juke Productions.
-                    With additional local support from vendors at WUFU Dumpling Bar and The Enlited Store.
+                    An evening of low ends and strobe lights, paired with the musical stylings of record label and global collective Kalibrplus. 
+                  </p> 
+                  <p> 
+                    Featuring live sets from: 
+                  </p> 
+                  <ul>
+                    <li>Gold Plates (Kuwait)</li>
+                    <li>CH4INS4W (Toronto)</li>
+                    <li>DVDV (Berlin)</li> 
+                  </ul>
+                  <p> 
+                    We were very fortunate to host three powerhous electronic music producers from our favorite collective, K+, all together for the first time. 
                   </p>            
 
                   <img id='dvdv'  src={fadeImages[4]} />
@@ -80,9 +89,9 @@ const TitleSlide = () => {
                   <img id='ssx' src={fadeImages[0]} />
                  
             </div>
-            <div className='artist-info'>
+            <div className='artist-info' id='ssxinfo'>
               <p> DVDV <a href="http://dvdv.space/">http://dvdv.space/</a> </p>  
-            <iframe id='dvdvsc' width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302617354&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+            <iframe id='dvdvsc' width="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302617354&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
                                    
                                    <img  src={fadeImages[3]} />
                    <iframe id='spotify-embed' src="https://open.spotify.com/embed/artist/5BcginI7QeBe0qNsOyW7SR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -118,23 +127,28 @@ const TitleSlide = () => {
                 </div>
     
                      <div className='videoContainer'>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/i9CaOXAkWu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/i9CaOXAkWu0" frameborder="0" ></iframe>
               <p id='desc'>proof of concept wrap video (footage captured and manipulated by The Juke Productions)</p>
             </div> 
                                
               <img id='poc' src={fadeImages[1]} /> 
                   <p>
-                    An intimate evening of sights, sounds, and fresh dumplings at the Institut Français du Koweit. Featuring musical performances and visual prompts by local artists and producers, Kadisa & Edyth.
-                     Only made possible with the support of our family from the one and only Juke Productions.
-                    With additional local support from vendors at WUFU Dumpling Bar and The Enlited Store.
+                  An intimate evening of sights, sounds, and sweet sweet indie electronica. Featuring musical performances and visual prompts by  Kadisa & Edyth, two local producers with wildly different sounds. 
                   </p>
+                  <p>
+                  Both performing live for the first time in their own perspective home markets. 
+                  </p>
+                  <p>
+                  Essentially the first of its kind in Kuwait, POC1 was an attempt to land a particular flavor of electronica to an otherwise unaware audience. 
+                  </p>
+                  
                   <div className='artist-info'>    
                   <img id='fixOne'  src={fadeImages[5]} />
-                  <iframe id="scOne" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/469733409&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+                  <iframe id="scOne" width="100%" scrolling="no" frameborder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/469733409&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
                   <p> KADISA <a href="https://soundcloud.com/kadisabincat">https://soundcloud.com/kadisabincat</a> </p>
                   
                   <img id='fixTwo'  src={fadeImages[6]} />
-                  <iframe id="scTwo"width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251834158&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+                  <iframe id="scTwo"width="100%"  scrolling="no" frameborder="0" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251834158&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
                   <p> EDYTH <a href="https://linktr.ee/edythmusic">https://linktr.ee/edythmusic</a></p></div>
                   </div>
                   

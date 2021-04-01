@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import About from './components/About';
-import Work from './components/work';
+import Events from './components/Events';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 import TitleSlide from './components/TitleSlide'
@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className='work'>
 
-        <Work></Work>        <EventSlide className="event"/>    
+        <Events></Events>        <EventSlide className="event"/>    
       </div>
       </div>
       <div className='contact'>

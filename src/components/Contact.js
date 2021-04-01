@@ -8,27 +8,19 @@ class Contact extends Component {
         return (  
 
         <div className='contact'>
-            <h2>MAKE A STATEMENT</h2>
         <p id='statement'>
-        <a id='bold'>Anomaly Productions</a> specializes in event coordination and talent procurement for all tastes and occasions.
+        <a id='bold'>Anomaly Productions</a> Event coordination, Talent Procurement, Tour management, and everything else in between. 
         
-         us to see how we can customize a unique experience for your customers, guests, or audiences.</p>
-         <ul id='social'>
-             <li><a href='https://twitter.com/anomalypro1'>Twitter</a></li>
-             <li><a href='https://www.instagram.com/anomalypro__/?igshid=14rocwq5ridbh'>Instagram</a></li>
-             <li><a href='https://www.facebook.com/anomalypro/'>Facebook</a></li>
-             <li><a href='https://www.youtube.com/channel/UCxEs0_Y8AiFH6JUrH7Z4Ucw?view_as=subscriber'>Youtube</a></li>
-         </ul>
-
+         For all business and creative inquiries: </p>
 
         <h1>
-                <Fade bottom cascade> Inquries</Fade>
+                 Inquries
         </h1>
-        <Fade bottom>
+     
         <div className='contact-content'>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
         </div>
-        </Fade>
+     
         </div>);
     }
 }
